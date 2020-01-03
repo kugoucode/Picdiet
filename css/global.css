@@ -63,7 +63,7 @@ body::-webkit-scrollbar{width:6px;height: 6px;}
 body::-webkit-scrollbar-track{background:transparent}
 body::-webkit-scrollbar-thumb{background-color:#bbb;border-radius:8px}
 body::-webkit-scrollbar-thumb:hover{background-color:#999}
-html{background: url("bg.svg") top no-repeat;max-width: 1440px;background-size: 120%;margin: auto}
+html{background: url("../image/bg.svg") top no-repeat;max-width: 1440px;background-size: 120%;margin: auto}
 #logo{display: block;margin: 0 auto; width: 220px;margin-top: 90px;}
 h1{display: block;text-align: center;font-size: 18px;
     margin: 35px 0px;color: #2b95fd;
@@ -140,7 +140,7 @@ main{margin-top: 70px;}
 #ie_alert{background: #f00;position: fixed;top:0;height: 30px;text-align: center;line-height: 30px;
 width: 970px;color: #ffffff;left: 50%;margin-left: -485px;}
 #ie_alert a{color: #ffffff; text-decoration: underline;}
-#upload{height: 340px;margin-top: 20px;background: url("upload.png") no-repeat 260px 0px;
+#upload{height: 340px;margin-top: 20px;background: url("../image/upload.png") no-repeat 260px 0px;
 
 }
 #upload_btn{
@@ -388,4 +388,23 @@ visibility: hidden;
     position: absolute;
     left: 50%;
     margin-left: 300px;
+}
+
+#tips{
+    display: none;
+    top: -73px;
+    font-size: 14px;
+    font-weight: 10;
+    color: #2b95fd;
+    right: -3px;
+    position: relative;
+}
+#pic-url{
+    width: 538px;
+    border: 1px solid #ff93b7;
+    padding: 2px 8px;
+    color: #94a4b3;
+    font-size: 12px;
+    line-height: 22px;
+    box-shadow: inset 3px 3px 3px #dedede;
 }
